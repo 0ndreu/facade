@@ -1,2 +1,2 @@
 # facade
-Facade implementation using Golang
+Реализация паттерна Фасад на примере рок-группы
