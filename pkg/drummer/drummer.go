@@ -20,5 +20,5 @@ func (d *drummer) StopPlaying(name string) {
 }
 
 func NewDrummer() Drummer {
-	return &drummer{name: "Виталик"}
+	return &drummer{}
 }

@@ -20,5 +20,5 @@ func (v *vocalist) SingChorus(name string) {
 }
 
 func NewVocalist() Vocalist {
-	return &vocalist{name: "Джонни"}
+	return &vocalist{}
 }

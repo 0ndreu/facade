@@ -25,5 +25,5 @@ func (b *bassist) StopPlaying(name string) {
 }
 
 func NewBassist() Bassist {
-	return &bassist{name: "Мартин"}
+	return &bassist{}
 }

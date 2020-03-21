@@ -36,10 +36,10 @@ type band struct {
 }
 
 func (b *band) PlayCoolSong() {
-	b.guitarist.PlayCoolOpening("John")
-	b.drummer.StartPlaying("b.drummer.name")
-	b.vocalist.SingCouplet("b.vocalist.name")
-	b.bassist.FollowTheDrums("b.bassist.name")
+	b.guitarist.PlayCoolOpening("john")
+	b.drummer.StartPlaying("Vitalik")
+	b.vocalist.SingCouplet("Boris")
+	b.bassist.FollowTheDrums("Summer")
 }
 
 // RockBand creating

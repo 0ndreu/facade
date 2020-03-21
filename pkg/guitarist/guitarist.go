@@ -35,5 +35,5 @@ func (g *guitarist) PlayFinalAccord(name string) {
 }
 
 func NewGuitarist() Guitarist {
-	return &guitarist{name: "Джонни"}
+	return &guitarist{}
 }
