@@ -1,11 +1,11 @@
 package main
 
 import (
-	"../../pkg/bassist"
-	"../../pkg/drummer"
-	"../../pkg/facade"
-	"../../pkg/guitarist"
-	"../../pkg/vocalist"
+	"facade/pkg/bassist"
+	"facade/pkg/drummer"
+	"facade/pkg/facade"
+	"facade/pkg/guitarist"
+	"facade/pkg/vocalist"
 )
 
 func main() {
