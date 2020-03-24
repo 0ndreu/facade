@@ -42,7 +42,7 @@ func (b *band) PlayCoolSong() {
 	b.bassist.FollowTheDrums("Summer")
 }
 
-// RockBand creating
+// Create new Rock band
 func RockBand(bassist bandBassist, drummer bandDrummer, guitarist bandGuitarist, vocalist bandVocalist) Band {
 	return &band{
 		bassist:   bassist,
