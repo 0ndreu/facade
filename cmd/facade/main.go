@@ -1,10 +1,18 @@
 package main
 
 import (
-	"../../pkg/facade"
+	"facade/pkg/bassist"
+	"facade/pkg/drummer"
+	"facade/pkg/facade"
+	"facade/pkg/guitarist"
+	"facade/pkg/vocalist"
 )
 
 func main() {
-	f := facade.RockBand()
+	bassist := bassist.NewBassist()
+	drummer := drummer.NewDrummer()
+	guitarist := guitarist.NewGuitarist()
+	vocalist := vocalist.NewVocalist()
+	f := facade.RockBand(bassist, drummer, guitarist, vocalist)
 	f.PlayCoolSong()
 }
