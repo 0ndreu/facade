@@ -12,17 +12,17 @@ type drummer struct {
 	name string
 }
 
-// Starts the song
+// Start the song
 func (d *drummer) StartPlaying(name string) {
 	fmt.Println(name, "начинает играть")
 }
 
-// Ends the song
+// End the song
 func (d *drummer) StopPlaying(name string) {
 	fmt.Println(name, "заканчивает играть")
 }
 
-// Create drummer
+// Create new drummer
 func NewDrummer() Drummer {
 	return &drummer{}
 }

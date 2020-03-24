@@ -12,17 +12,17 @@ type vocalist struct {
 	name string
 }
 
-// Vocalist sings a couplet
+// Sing a couplet
 func (v *vocalist) SingCouplet(name string) {
 	fmt.Println(name, "спел куплет")
 }
 
-// Vocalist sings a chorus
+// Sing a chorus
 func (v *vocalist) SingChorus(name string) {
 	fmt.Println(name, "спел припев")
 }
 
-// New vocalist creating
+// Create new vocalist
 func NewVocalist() Vocalist {
 	return &vocalist{}
 }
